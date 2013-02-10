@@ -1,11 +1,15 @@
 #!/bin/bash
+#
+# runs movie popularity calculation for netflix data three different
+# ways (python, awk, and uniq)
+# 
 
 ratings=../../data/netflix/ratings.csv
 output=../../data/netflix/movie_popularity
 
 # python
 echo "running python"
-time ./netflix.py $ratings > ${output}_py.tsv
+time ./movie_popularity.py $ratings > ${output}_py.tsv
 
 # awk
 echo "running awk"

@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# downloads netflix ratings data
+#
 
 DATA_DIR=../../data
 

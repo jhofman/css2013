@@ -1,16 +1,20 @@
+#
+# exploratory analysis and plots for movielens data
+#
+
 require(data.table)    # install.packages('data.table')
 require(plyr)    # install.packages('plyr')
 require(ggplot2) # install.packages('ggplot2')
 require(scales)    # install.packages('scales')
 
-# todo: global figure style
+# set plot theme
 theme_set(theme_bw())
 
-data.dir <- '../../data/movielens'
+data.dir <- '../../data'
 
 # read ratings from csv file
 system.time(
-  ratings <- read.delim(sprintf('%s/movielens_10M/ratings.csv', data.dir),
+  ratings <- read.delim(sprintf('%s/movielens/ratings.csv', data.dir),
                         sep=',', header=F,
                         col.names=c('user.id','movie.id','rating','timestamp'),
                         colClasses=c('integer','integer','numeric','integer'))

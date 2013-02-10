@@ -1,4 +1,9 @@
 #!/bin/bash
+#
+# downloads movielens rating data
+# 
+# see http://grouplens.org/node/73 for more info
+#
 
 DATA_DIR=../../data
 
