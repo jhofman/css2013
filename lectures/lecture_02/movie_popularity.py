@@ -2,12 +2,12 @@
 #
 # computes movie popularity for comma-separated ratings files of
 # (user, movie, rating) data.
-# 
+#
 
 import sys
 from collections import defaultdict
 
-if __name__=='__main__':
+if __name__ == '__main__':
 
     # read input file from command line argument
     fname = sys.argv[1]
