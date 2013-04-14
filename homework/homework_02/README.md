@@ -10,7 +10,7 @@ Template files and sample data for homework 2.
 ## Problem 2:
 
 	run_pagepop.sh: driver script to run pagepop.pig
-		set JAVA_HOME and PIG_BIN appropriately, run as ./run_wordcount.sh
+		set JAVA_HOME and PIG_BIN appropriately, run as ./run_pagepop.sh
 	pagepop.pig: template for problem 2 solution
 	enwiki-edges.tsv: sample input with wikipedia article ids, urls, and links
 
