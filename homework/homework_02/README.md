@@ -14,6 +14,8 @@ Template files and sample data for homework 2.
 	pagepop.pig: template for problem 2 solution
 	enwiki-edges.tsv: sample input with wikipedia article ids, urls, and links
 
+Note: Dummy links are included for a subset of the target pages for easy testing. These are indicated by a '#' as the target in the third field.
+
 ## Problem 3:
 
 	erdos_nodes.txt: space-separated author ids and quoted names
