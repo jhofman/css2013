@@ -2,7 +2,7 @@
 -- Run using the run_wordcount.sh
 
 -- Load tab-separated articles
-edges = LOAD '$INPUT' AS (source_id, source_url, target);
+edges = LOAD '$INPUT' USING PigStorage('\t') AS (source_id, source_url, target);
 
 -- Fill in code here to compute page popularity
 
